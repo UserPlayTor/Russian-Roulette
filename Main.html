@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Roulette Game</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="roulette.js" defer></script>
+</head>
+<body>
+    <h1>Russian Roulette</h1>
+    <p id="players"></p>
+    <img src="pngwing.com.png" id="revolver" width="350px" height="350px">
+    <button id="spinButton" onclick="spinChamber()">Spin Chamber</button>
+    <button id="triggerButton" onclick="pullTrigger()" disabled>Pull Trigger</button>
+    <button id="resetButton" style="display: none;" onclick="resetGame()">Play Again</button>
+    <p id="message"></p>
+
+</body>
+</html>
